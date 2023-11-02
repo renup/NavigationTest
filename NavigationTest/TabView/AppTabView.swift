@@ -25,7 +25,7 @@ enum Tab {
 }
 
 struct AppTabView: View {
-    @StateObject var viewModel = AppViewModel()
+    @EnvironmentObject private var viewModel: AppViewModel
     
     var body: some View {
         TabView(selection: $viewModel.selectedTab) {
@@ -44,7 +44,6 @@ struct AppTabView: View {
                 }
                 .tag(Tab.settings)
         }
-        .environmentObject(viewModel)
     }
 }
 

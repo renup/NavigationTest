@@ -10,4 +10,6 @@ import Foundation
 // This class is meant to store states/any info which is needed app wide.
 final class AppViewModel: ObservableObject {
     @Published var selectedTab: Tab = .home
+    @Published var isUserSignedIn = false
+
 }

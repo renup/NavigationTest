@@ -24,6 +24,9 @@
 		24621DE92AF3089700F61D0A /* AdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24621DE82AF3089700F61D0A /* AdView.swift */; };
 		24621DEB2AF308AB00F61D0A /* PromoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24621DEA2AF308AB00F61D0A /* PromoView.swift */; };
 		24621DED2AF4202900F61D0A /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24621DEC2AF4202900F61D0A /* AppViewModel.swift */; };
+		24621DF22AF4607200F61D0A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24621DF12AF4607200F61D0A /* SignInView.swift */; };
+		24621DF52AF4628D00F61D0A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24621DF42AF4628D00F61D0A /* SignUpView.swift */; };
+		24621DF72AF4635C00F61D0A /* SignInSignUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24621DF62AF4635C00F61D0A /* SignInSignUpRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		24621DE82AF3089700F61D0A /* AdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdView.swift; sourceTree = "<group>"; };
 		24621DEA2AF308AB00F61D0A /* PromoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoView.swift; sourceTree = "<group>"; };
 		24621DEC2AF4202900F61D0A /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		24621DF12AF4607200F61D0A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInView.swift; path = NavigationTest/LoginSignUp/SignInView.swift; sourceTree = SOURCE_ROOT; };
+		24621DF42AF4628D00F61D0A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		24621DF62AF4635C00F61D0A /* SignInSignUpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInSignUpRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +84,11 @@
 		24621DBD2AF2E12300F61D0A /* NavigationTest */ = {
 			isa = PBXGroup;
 			children = (
+				24621DF32AF4609500F61D0A /* LoginSignUp */,
 				24621DEE2AF4219A00F61D0A /* Shared */,
 				24621DDE2AF2EFF600F61D0A /* MockData */,
 				24621DD72AF2E3A300F61D0A /* RouterManager */,
 				24621DCE2AF2E16400F61D0A /* TabView */,
-				24621DCD2AF2E15100F61D0A /* LoginSignUp */,
 				24621DBE2AF2E12300F61D0A /* NavigationTestApp.swift */,
 				24621DC02AF2E12300F61D0A /* ContentView.swift */,
 				24621DC22AF2E12600F61D0A /* Assets.xcassets */,
@@ -98,13 +104,6 @@
 				24621DC62AF2E12600F61D0A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		24621DCD2AF2E15100F61D0A /* LoginSignUp */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LoginSignUp;
 			sourceTree = "<group>";
 		};
 		24621DCE2AF2E16400F61D0A /* TabView */ = {
@@ -170,6 +169,16 @@
 				24621DE42AF2F4A900F61D0A /* DealDetailsView.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		24621DF32AF4609500F61D0A /* LoginSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				24621DF12AF4607200F61D0A /* SignInView.swift */,
+				24621DF42AF4628D00F61D0A /* SignUpView.swift */,
+				24621DF62AF4635C00F61D0A /* SignInSignUpRouter.swift */,
+			);
+			path = LoginSignUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +259,12 @@
 				24621DED2AF4202900F61D0A /* AppViewModel.swift in Sources */,
 				24621DD02AF2E18200F61D0A /* AppTabView.swift in Sources */,
 				24621DE02AF2F01600F61D0A /* DealsMock.swift in Sources */,
+				24621DF72AF4635C00F61D0A /* SignInSignUpRouter.swift in Sources */,
 				24621DE52AF2F4A900F61D0A /* DealDetailsView.swift in Sources */,
 				24621DDD2AF2E5E000F61D0A /* SearchRouter.swift in Sources */,
+				24621DF22AF4607200F61D0A /* SignInView.swift in Sources */,
 				24621DD92AF2E3BD00F61D0A /* HomeRouter.swift in Sources */,
+				24621DF52AF4628D00F61D0A /* SignUpView.swift in Sources */,
 				24621DD22AF2E21800F61D0A /* HomeView.swift in Sources */,
 				24621DD62AF2E24700F61D0A /* SettingsView.swift in Sources */,
 				24621DC12AF2E12300F61D0A /* ContentView.swift in Sources */,
