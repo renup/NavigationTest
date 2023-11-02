@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4C58AC32-D45D-4E18-8E3A-21626B9383C8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3352BDDD-5ABA-4624-A5CC-16EA8AAAD9AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NavigationTest/RouterManager/HomeRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "3352BDDD-5ABA-4624-A5CC-16EA8AAAD9AA - d48320302907257d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationTest.HomeRouter.body.getter : some"
+                  moduleName = "NavigationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renu.punjabi/Desktop/NavigationTest/NavigationTest/RouterManager/HomeRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "2344">
+               </Location>
+               <Location
+                  uuid = "3352BDDD-5ABA-4624-A5CC-16EA8AAAD9AA - d4832030290726bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationTest.HomeRouter.body.getter : some"
+                  moduleName = "NavigationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renu.punjabi/Desktop/NavigationTest/NavigationTest/RouterManager/HomeRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1748">
+               </Location>
+               <Location
+                  uuid = "3352BDDD-5ABA-4624-A5CC-16EA8AAAD9AA - d483203029072592"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationTest.HomeRouter.body.getter : some"
+                  moduleName = "NavigationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renu.punjabi/Desktop/NavigationTest/NavigationTest/RouterManager/HomeRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "1748">
+               </Location>
+               <Location
+                  uuid = "3352BDDD-5ABA-4624-A5CC-16EA8AAAD9AA - d483203029072592"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationTest.HomeRouter.body.getter : some"
+                  moduleName = "NavigationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renu.punjabi/Desktop/NavigationTest/NavigationTest/RouterManager/HomeRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "1772">
+               </Location>
+               <Location
+                  uuid = "3352BDDD-5ABA-4624-A5CC-16EA8AAAD9AA - d483203029072475"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationTest.HomeRouter.body.getter : some"
+                  moduleName = "NavigationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renu.punjabi/Desktop/NavigationTest/NavigationTest/RouterManager/HomeRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1772">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0977C608-3BF4-44D7-A158-DEB1E2A08870"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NavigationTest/RouterManager/HomeRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "0977C608-3BF4-44D7-A158-DEB1E2A08870 - d483203029072606"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationTest.HomeRouter.body.getter : some"
+                  moduleName = "NavigationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renu.punjabi/Desktop/NavigationTest/NavigationTest/RouterManager/HomeRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "780">
+               </Location>
+               <Location
+                  uuid = "0977C608-3BF4-44D7-A158-DEB1E2A08870 - d483203029072627"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationTest.HomeRouter.body.getter : some"
+                  moduleName = "NavigationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renu.punjabi/Desktop/NavigationTest/NavigationTest/RouterManager/HomeRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "0977C608-3BF4-44D7-A158-DEB1E2A08870 - d48320302907251e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationTest.HomeRouter.body.getter : some"
+                  moduleName = "NavigationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renu.punjabi/Desktop/NavigationTest/NavigationTest/RouterManager/HomeRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "0977C608-3BF4-44D7-A158-DEB1E2A08870 - d48320302907251e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationTest.HomeRouter.body.getter : some"
+                  moduleName = "NavigationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renu.punjabi/Desktop/NavigationTest/NavigationTest/RouterManager/HomeRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "0977C608-3BF4-44D7-A158-DEB1E2A08870 - d4832030290725f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationTest.HomeRouter.body.getter : some"
+                  moduleName = "NavigationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renu.punjabi/Desktop/NavigationTest/NavigationTest/RouterManager/HomeRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E50A9A29-8E48-448D-B656-4BFC2AFB95E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NavigationTest/RouterManager/HomeRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E50A9A29-8E48-448D-B656-4BFC2AFB95E5 - d4832030290726f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationTest.HomeRouter.body.getter : some"
+                  moduleName = "NavigationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renu.punjabi/Desktop/NavigationTest/NavigationTest/RouterManager/HomeRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "836">
+               </Location>
+               <Location
+                  uuid = "E50A9A29-8E48-448D-B656-4BFC2AFB95E5 - d4832030290725d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationTest.HomeRouter.body.getter : some"
+                  moduleName = "NavigationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renu.punjabi/Desktop/NavigationTest/NavigationTest/RouterManager/HomeRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "836">
+               </Location>
+               <Location
+                  uuid = "E50A9A29-8E48-448D-B656-4BFC2AFB95E5 - d4832030290725d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationTest.HomeRouter.body.getter : some"
+                  moduleName = "NavigationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renu.punjabi/Desktop/NavigationTest/NavigationTest/RouterManager/HomeRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "872">
+               </Location>
+               <Location
+                  uuid = "E50A9A29-8E48-448D-B656-4BFC2AFB95E5 - d4832030290725b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationTest.HomeRouter.body.getter : some"
+                  moduleName = "NavigationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renu.punjabi/Desktop/NavigationTest/NavigationTest/RouterManager/HomeRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "872">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A86CAA0-C31D-44EE-8982-F1F4A0C5E712"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NavigationTest/TabView/DealListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "5A86CAA0-C31D-44EE-8982-F1F4A0C5E712 - cac5edd16f4a62ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationTest.DealListView.body.getter : some"
+                  moduleName = "NavigationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renu.punjabi/Desktop/NavigationTest/NavigationTest/TabView/DealListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "1216">
+               </Location>
+               <Location
+                  uuid = "5A86CAA0-C31D-44EE-8982-F1F4A0C5E712 - 9867560a4efe5d37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SwiftUI.Text in NavigationTest.DealListView.body.getter : some"
+                  moduleName = "NavigationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renu.punjabi/Desktop/NavigationTest/NavigationTest/TabView/DealListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06E723FB-00A5-4D6C-9D88-01CF05B72651"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NavigationTest/RouterManager/Router.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "goBack(to:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "06E723FB-00A5-4D6C-9D88-01CF05B72651 - 5fc173c37784c4b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationTest.NavigationRouter.goBack(to: &#x3c4;_0_0.RouterType) -&gt; ()"
+                  moduleName = "NavigationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renu.punjabi/Desktop/NavigationTest/NavigationTest/RouterManager/Router.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "06E723FB-00A5-4D6C-9D88-01CF05B72651 - 5fc173c37784c496"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationTest.NavigationRouter.goBack(to: &#x3c4;_0_0.RouterType) -&gt; ()"
+                  moduleName = "NavigationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renu.punjabi/Desktop/NavigationTest/NavigationTest/RouterManager/Router.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "21AE3A8F-4E1D-4716-BD99-FBFAC4D10FF9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NavigationTest/RouterManager/Router.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "goBack(to:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
