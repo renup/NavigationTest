@@ -55,11 +55,11 @@ extension HomeRouter: View {
     var body: some View {
         switch self {
         case .homeLanding(let items):
-            DealListView(deals: items, selectedTab: .home)
+            DealListView(deals: items)
         case .dealDetails(item: let item):
-            DealDetailsView(deal: item, selectedTab: .home)
+            DealDetailsView(deal: item)
         case .promoView:
-            PromoView(selectedTab: .home)
+            PromoView()
         }
     }
     

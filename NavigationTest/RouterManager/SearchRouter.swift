@@ -54,11 +54,11 @@ extension SearchRouter: View {
     var body: some View {
         switch self {
         case .searchLanding(let items):
-            DealListView(deals: items, selectedTab: .search)
+            DealListView(deals: items)
         case .searchDetails(item: let item):
-            DealDetailsView(deal: item, selectedTab: .search)
+            DealDetailsView(deal: item)
         case .adView:
-            AdView(selectedTab: .search)
+            AdView()
         }
     }
     

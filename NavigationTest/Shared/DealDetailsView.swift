@@ -21,16 +21,16 @@ enum Context {
 
 struct DealDetailsView: View {
     let deal: Deal
-    let selectedTab: Tab
     
     @EnvironmentObject private var searchRouter: NavigationRouter<SearchRouter>
     @EnvironmentObject private var homeRouter: NavigationRouter<HomeRouter>
+    @EnvironmentObject private var appViewModel: AppViewModel
     
     var body: some View {
         VStack(spacing: 10) {
             Text("Deal Details View")
             Button {
-                switch selectedTab {
+                switch appViewModel.selectedTab {
                 case .home:
                     homeRouter.showSheet(to: .promoView)
                 case .search:
@@ -43,7 +43,7 @@ struct DealDetailsView: View {
             }
             
             Button {
-                switch selectedTab {
+                switch appViewModel.selectedTab {
                 case .home:
 //                    homeRouter.goBack()
                     homeRouter.goBack(to: .homeLanding(items: []))
@@ -62,7 +62,7 @@ struct DealDetailsView: View {
 
 #Preview {
     NavigationStack {
-        DealDetailsView(deal: Deal.mock.first!, selectedTab: .home)
+        DealDetailsView(deal: Deal.mock.first!)
             .environmentObject(NavigationRouter<SearchRouter>())
             .environmentObject(NavigationRouter<HomeRouter>())
     }

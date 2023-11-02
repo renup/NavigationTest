@@ -25,10 +25,10 @@ enum Tab {
 }
 
 struct AppTabView: View {
-    @State var selectedTab: Tab = .home
+    @StateObject var viewModel = AppViewModel()
     
     var body: some View {
-        TabView(selection: $selectedTab) {
+        TabView(selection: $viewModel.selectedTab) {
             HomeView(deals: Deal.mock)
                 .tabItem {
                     Label("Home", systemImage: "house")
@@ -44,6 +44,7 @@ struct AppTabView: View {
                 }
                 .tag(Tab.settings)
         }
+        .environmentObject(viewModel)
     }
 }
 

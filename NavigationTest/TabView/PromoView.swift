@@ -8,18 +8,18 @@
 import SwiftUI
 
 struct PromoView: View {
-    let selectedTab: Tab // Instead of passing in each view we can use an env object
-    
+        
     @EnvironmentObject var homeRouter: NavigationRouter<HomeRouter>
     @EnvironmentObject var searchRouter: NavigationRouter<SearchRouter>
     @Environment(\.presentationMode) var presentationMode
+    @EnvironmentObject private var appViewModel: AppViewModel
     
     var body: some View {
         VStack(spacing: 10){
             Text("Promo View")
             Button {
                 presentationMode.wrappedValue.dismiss()
-                switch selectedTab {
+                switch appViewModel.selectedTab {
                 case .home:
                     homeRouter.reset()
                 case .search:
@@ -28,7 +28,7 @@ struct PromoView: View {
                     EmptyView()
                 }
             } label: {
-                Text("Go \(selectedTab.description)")
+                Text("Go \(appViewModel.selectedTab.description)")
             }
         }
     }
@@ -37,5 +37,5 @@ struct PromoView: View {
 }
 
 #Preview {
-    PromoView(selectedTab: .home)
+    PromoView()
 }

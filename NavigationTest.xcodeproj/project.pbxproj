@@ -23,6 +23,7 @@
 		24621DE72AF2F4FC00F61D0A /* DealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24621DE62AF2F4FC00F61D0A /* DealListView.swift */; };
 		24621DE92AF3089700F61D0A /* AdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24621DE82AF3089700F61D0A /* AdView.swift */; };
 		24621DEB2AF308AB00F61D0A /* PromoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24621DEA2AF308AB00F61D0A /* PromoView.swift */; };
+		24621DED2AF4202900F61D0A /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24621DEC2AF4202900F61D0A /* AppViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		24621DE62AF2F4FC00F61D0A /* DealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealListView.swift; sourceTree = "<group>"; };
 		24621DE82AF3089700F61D0A /* AdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdView.swift; sourceTree = "<group>"; };
 		24621DEA2AF308AB00F61D0A /* PromoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoView.swift; sourceTree = "<group>"; };
+		24621DEC2AF4202900F61D0A /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		24621DBD2AF2E12300F61D0A /* NavigationTest */ = {
 			isa = PBXGroup;
 			children = (
+				24621DEE2AF4219A00F61D0A /* Shared */,
 				24621DDE2AF2EFF600F61D0A /* MockData */,
 				24621DD72AF2E3A300F61D0A /* RouterManager */,
 				24621DCE2AF2E16400F61D0A /* TabView */,
@@ -111,10 +114,9 @@
 				24621DE22AF2F31900F61D0A /* Search */,
 				24621DE12AF2F31300F61D0A /* Home */,
 				24621DCF2AF2E18100F61D0A /* AppTabView.swift */,
-				24621DE42AF2F4A900F61D0A /* DealDetailsView.swift */,
+				24621DEC2AF4202900F61D0A /* AppViewModel.swift */,
 				24621DE82AF3089700F61D0A /* AdView.swift */,
 				24621DEA2AF308AB00F61D0A /* PromoView.swift */,
-				24621DE62AF2F4FC00F61D0A /* DealListView.swift */,
 			);
 			path = TabView;
 			sourceTree = "<group>";
@@ -159,6 +161,15 @@
 				24621DD52AF2E24700F61D0A /* SettingsView.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		24621DEE2AF4219A00F61D0A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				24621DE62AF2F4FC00F61D0A /* DealListView.swift */,
+				24621DE42AF2F4A900F61D0A /* DealDetailsView.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +247,7 @@
 				24621DD42AF2E23900F61D0A /* SearchView.swift in Sources */,
 				24621DE72AF2F4FC00F61D0A /* DealListView.swift in Sources */,
 				24621DE92AF3089700F61D0A /* AdView.swift in Sources */,
+				24621DED2AF4202900F61D0A /* AppViewModel.swift in Sources */,
 				24621DD02AF2E18200F61D0A /* AppTabView.swift in Sources */,
 				24621DE02AF2F01600F61D0A /* DealsMock.swift in Sources */,
 				24621DE52AF2F4A900F61D0A /* DealDetailsView.swift in Sources */,

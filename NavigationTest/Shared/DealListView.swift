@@ -9,10 +9,11 @@ import SwiftUI
 
 struct DealListView: View {
     let deals: [Deal]
-    let selectedTab: Tab
+//    let selectedTab: Tab
+    @EnvironmentObject private var appViewModel: AppViewModel
         
     var body: some View {
-        switch selectedTab {
+        switch appViewModel.selectedTab {
         case .home:
             NavigationLink(value: HomeRouter.dealDetails(item: deals.first!)) {
                 Text("Deal List View")
@@ -29,5 +30,5 @@ struct DealListView: View {
 }
 
 #Preview {
-    DealListView(deals: Deal.mock, selectedTab: .home)
+    DealListView(deals: Deal.mock)
 }

@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct AdView: View {
-    let selectedTab: Tab // Instead of passing in each view we can use an env object
     
     @EnvironmentObject var homeRouter: NavigationRouter<HomeRouter>
     @EnvironmentObject var searchRouter: NavigationRouter<SearchRouter>
     @Environment(\.presentationMode) var presentationMode
+    @EnvironmentObject private var appViewModel: AppViewModel
     
     var body: some View {
         
@@ -20,7 +20,7 @@ struct AdView: View {
             Text("Ad View")
             Button {
                 presentationMode.wrappedValue.dismiss()
-                switch selectedTab {
+                switch appViewModel.selectedTab {
                 case .home:
                     homeRouter.reset()
                 case .search:
@@ -29,7 +29,7 @@ struct AdView: View {
                     EmptyView()
                 }
             } label: {
-                Text("Go \(selectedTab.description)")
+                Text("Go \(appViewModel.selectedTab.description)")
             }
 
         }
@@ -38,5 +38,5 @@ struct AdView: View {
 }
 
 #Preview {
-    AdView(selectedTab: .home)
+    AdView()
 }
