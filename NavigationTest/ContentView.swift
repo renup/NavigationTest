@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var viewModel = AppViewModel()
+    @StateObject var signInSignUpRouter = NavigationRouter<SignInSignUpRouter>()
     
     var body: some View {
         VStack {
@@ -20,6 +21,7 @@ struct ContentView: View {
         }
         .padding()
         .environmentObject(viewModel)
+        .environmentObject(signInSignUpRouter)
     }
 }
 

@@ -10,19 +10,22 @@ import SwiftUI
 struct SignInView: View {
     @State var email: String = ""
     @State var password: String = ""
-    
-    @StateObject var signInSignUpRouter = NavigationRouter<SignInSignUpRouter>()
+   
+    @EnvironmentObject private var signInSignUpRouter: NavigationRouter<SignInSignUpRouter>
+
     @EnvironmentObject private var viewModel: AppViewModel
 
     var body: some View {
-        VStack(spacing: 15) {
-            emailField
-            passwordField
-            
-            HStack {
-                signInButton
-                Spacer()
-                signUpButton
+        NavigationStack(path: $signInSignUpRouter.path){
+            VStack(spacing: 15) {
+                emailField
+                passwordField
+                
+                HStack {
+                    signInButton
+                    Spacer()
+                    signUpButton
+                }
             }
         }
         .padding()
