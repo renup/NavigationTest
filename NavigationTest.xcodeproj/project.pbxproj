@@ -27,6 +27,7 @@
 		24621DF22AF4607200F61D0A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24621DF12AF4607200F61D0A /* SignInView.swift */; };
 		24621DF52AF4628D00F61D0A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24621DF42AF4628D00F61D0A /* SignUpView.swift */; };
 		24621DF72AF4635C00F61D0A /* SignInSignUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24621DF62AF4635C00F61D0A /* SignInSignUpRouter.swift */; };
+		24621DF92AF46ED900F61D0A /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24621DF82AF46ED900F61D0A /* SettingsRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		24621DF12AF4607200F61D0A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInView.swift; path = NavigationTest/LoginSignUp/SignInView.swift; sourceTree = SOURCE_ROOT; };
 		24621DF42AF4628D00F61D0A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		24621DF62AF4635C00F61D0A /* SignInSignUpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInSignUpRouter.swift; sourceTree = "<group>"; };
+		24621DF82AF46ED900F61D0A /* SettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				24621DD82AF2E3BD00F61D0A /* HomeRouter.swift */,
 				24621DDA2AF2E3CC00F61D0A /* Router.swift */,
 				24621DDC2AF2E5E000F61D0A /* SearchRouter.swift */,
+				24621DF82AF46ED900F61D0A /* SettingsRouter.swift */,
 			);
 			path = RouterManager;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			files = (
 				24621DEB2AF308AB00F61D0A /* PromoView.swift in Sources */,
 				24621DDB2AF2E3CC00F61D0A /* Router.swift in Sources */,
+				24621DF92AF46ED900F61D0A /* SettingsRouter.swift in Sources */,
 				24621DD42AF2E23900F61D0A /* SearchView.swift in Sources */,
 				24621DE72AF2F4FC00F61D0A /* DealListView.swift in Sources */,
 				24621DE92AF3089700F61D0A /* AdView.swift in Sources */,

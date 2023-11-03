@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @EnvironmentObject private var viewModel: AppViewModel
+    
     var body: some View {
-        Text("Settings View")
+        VStack(spacing: 10){
+            Text("Settings View")
+            
+            Button {
+                viewModel.isUserSignedIn = false
+            } label: {
+                Text("Sign out")
+            }
+        }
     }
 }
 
